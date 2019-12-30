@@ -1,0 +1,23 @@
+.table{
+    /* margin: auto; */
+    width: 100%;
+    border-spacing: 0px;
+    border-collapse: separate;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: auto;
+    padding: auto;
+   
+}
+.table table{
+    transform: translateX(-50%);
+    margin-left: 50%;
+}
+.table td{
+    border: 2px solid #000;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+   
+    cursor: pointer;
+}

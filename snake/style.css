@@ -1,0 +1,16 @@
+#snake{
+    background-color: antiquewhite;
+    margin-left: 50%; 
+     transform: translate(-50%);
+}
+.mode{
+    width: 20%;
+    margin:50px auto;
+}
+button{
+    border-radius: 20px;
+    background-color: aqua;
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+}
