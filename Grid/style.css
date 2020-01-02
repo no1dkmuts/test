@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+}
+.fixedHeader    {
+display: inline-block;
+  margin-bottom: 40px;
+}
+td{
+    width: auto;
+    margin: auto;
+    text-align: center;
+    line-height: 20px;
+    height: 20px;
+}
+th{
+    /* width: auto;*/
+    text-align: center;
+    margin: auto; 
+    flex:1;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+}
+th:hover{
+    cursor: pointer;
+}
+.fixedHeader{
+    /* width: 100%; */
+    background-color: black;
+    /* justify-content: space-around; */
+    /* justify-items: b;
+    align-items: center; */
+    /* height: 100px;   */
+}
+.fixedHeader tr{
+     position: fixed;
+     background-color: black;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     /* left: 0; */
+     
+     /* margin-bottom: 50px; */
+}
+.scrollContent{
+    /* padding-top: 1000px; */
+    margin: auto;
+    margin-top: 100px;
+}
